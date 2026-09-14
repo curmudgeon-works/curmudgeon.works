@@ -13,21 +13,38 @@ Track: Testing → Closed testing → create track "Alpha" → upload → add te
 Release notes: First closed test. Swipe typing uses our own decoder; suggestions, spacing and learning behave as designed. Tell us what annoys you: support@curmudgeon.works
 
 ## Store listing (Main store listing)
-- Short description (≤80): A keyboard that remembers what you taught it and keeps its hands off your data.
-- Full description:
-Curmudgeon Keyboard is for people who are tired of keyboards that think they know better.
+- Short description (≤80, 71 chars): Keeps its hands off your data. Open source, made by one annoyed person.
+- Full description (2327 chars, limit 4000):
+Curmudgeon Keyboard is made by one person who got fed up with keyboards that think they know better. Here is exactly what it is and isn't.
 
-• Remembers the words you teach it, and keeps remembering them.
-• A full row of suggestions, ranked the way you actually type, not the way an ad network wants.
-• You decide about spaces after punctuation, capitalisation and autocorrect. It never overrides you twice.
-• Swipe typing with an open decoder built from expired patents and published research, no third-party library.
-• Long-press symbols laid out like a real keyboard.
-• Multi-level undo for deleted text, word-by-word deletion, and a compact layout with tight keys.
-• No internet permission. Nothing you type leaves the phone. No ads, no accounts, no analytics.
+WHAT IT DOES
+• Remembers the words you teach it and keeps remembering them. Learned words fade only if you stop using them, and never all at once.
+• A full row of suggestions ranked by how you actually type.
+• You decide about spaces after punctuation, capitalisation and autocorrect. It never overrides the same correction twice.
+• Swipe typing with our own decoder. It is built from expired patents and published research, not from any third-party gesture library, and every line of it is in the public source.
+• Long-press symbols arranged like a physical keyboard, and you can remap every one of them in Settings.
+• Hold backspace to delete word by word, with multi-level undo if you hold too long.
+• Tight keys, a compact layout, and a settings screen you can prune down to only what you use.
 
-Built on the open-source HeliBoard (GPL-3.0). Source: https://github.com/rahulj-rj/HeliBoard
+WHAT IT DOESN'T DO
+• No internet permission. The app cannot send anything anywhere. No ads, no accounts, no analytics, no crash reporting to us.
+• Contacts are read only if you turn on the option to suggest names, and only on the phone.
+• The personal dictionary permission is used to sync your learned words with Android's own user dictionary, so a backup or a reinstall keeps them.
 
-This is an early release. English (US) dictionary bundled; more languages via import for now.
+OPEN SOURCE, ALL THE WAY
+This is a fork of HeliBoard, licensed GPL-3.0, and the full source of exactly this build is on GitHub. Anyone can read it, build the same APK, or fork it. Please do. If you build on it, keep the attribution and we are happy.
+Source: https://github.com/rahulj-rj/HeliBoard
+
+WHERE IT IS RIGHT NOW
+This is an early release from a project that is still moving fast.
+• Only the English (US) dictionary ships in the app for licensing reasons. Other languages can be added by importing a dictionary file.
+• The swipe decoder is new and still being tuned. Precise swipes are good; sloppy ones are not there yet. Every release should improve it.
+• There is a Swipe Trainer tool behind the debug settings if you want to see what the decoder is thinking.
+
+TELL US WHAT ANNOYS YOU
+Complaints are the roadmap. Email support@curmudgeon.works or open an issue on GitHub. Reviews here are read too, but we cannot reply to them with questions.
+
+Privacy policy: https://curmudgeon.works/privacy/
 - App icon 512×512, feature graphic 1024×500, ≥2 phone screenshots: TODO (I can generate icon + feature graphic; screenshots from a Pixel via adb)
 - Category: Tools · Tags: keyboard, productivity
 - Contact email: support@curmudgeon.works · Website: https://curmudgeon.works · Privacy policy: https://curmudgeon.works/privacy/
