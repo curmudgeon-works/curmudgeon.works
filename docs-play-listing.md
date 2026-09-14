@@ -45,7 +45,7 @@ TELL US WHAT ANNOYS YOU
 Complaints are the roadmap. Email support@curmudgeon.works or open an issue on GitHub. Reviews here are read too, but we cannot reply to them with questions.
 
 Privacy policy: https://curmudgeon.works/privacy/
-- App icon 512×512, feature graphic 1024×500, ≥2 phone screenshots: TODO (I can generate icon + feature graphic; screenshots from a Pixel via adb)
+- App icon: assets/icon-512.png · Feature graphic: assets/feature-1024x500.png · Phone screenshots (1080×2400, release build): releases/screenshots/1-typing.png, 2-swipe.png, 3-currency-popup.png, 4-settings.png
 - Category: Tools · Tags: keyboard, productivity
 - Contact email: support@curmudgeon.works · Website: https://curmudgeon.works · Privacy policy: https://curmudgeon.works/privacy/
 
