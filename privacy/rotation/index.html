@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rotation privacy policy · Curmudgeon Works</title>
+<style>
+  :root{color-scheme:light dark;--fg:#1d1d1b;--bg:#f6f4ee;--muted:#6b675e;--line:#d9d5cb;--accent:#8a3b12}
+  @media (prefers-color-scheme:dark){:root{--fg:#ece8df;--bg:#191917;--muted:#a19c91;--line:#33312d;--accent:#e2884f}}
+  html{background:var(--bg);color:var(--fg);font:17px/1.55 Georgia,"Times New Roman",serif}
+  body{margin:0;padding:4rem 1.25rem 5rem;max-width:42rem;margin-inline:auto}
+  h1{font-size:2rem;line-height:1.1;margin:0 0 .3rem}
+  h2{font-size:1.15rem;margin:2rem 0 .3rem}
+  .muted{color:var(--muted)}
+  a{color:var(--accent)}
+  footer{margin-top:4rem;border-top:1px solid var(--line);padding-top:1rem;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<h1>Privacy policy</h1>
+<p class="muted">Curmudgeon Works · applies to Curmudgeon Rotation · last updated 29 September 2026</p>
+
+<h2>The short version</h2>
+<p>Curmudgeon Rotation changes your screen rotation. It does not collect, store off your phone, or transmit anything. It has no analytics, no advertising, and no accounts.</p>
+
+<h2>The accessibility service</h2>
+<p>Per-app rules (for example "YouTube in landscape") need to know which app is in front. Android provides that through an accessibility service, which you switch on yourself after the app explains it.</p>
+<ul>
+  <li><strong>What it reads:</strong> only the package name of the app in front and the class name of its screen, for example <code>com.google.android.youtube</code>.</li>
+  <li><strong>When:</strong> only while you have at least one per-app rule, or while a Flip is waiting for you to turn the phone. Otherwise Android does not send the app anything.</li>
+  <li><strong>What it does not read:</strong> window content, text you type or see, passwords, notifications or gestures. The service is declared without permission to read window content.</li>
+  <li><strong>What happens to it:</strong> it is used on your phone to pick a rule. For apps you have a rule for, a short list of recently seen screens is kept in the app's private storage so you can limit a rule to specific screens; you can view and clear it in Settings. Nothing about apps without a rule is kept.</li>
+</ul>
+<p>The same service also holds an invisible window used by the Lock tile and the "force" rules, which is what turns apps that insist on portrait into landscape. It draws nothing and reads nothing.</p>
+
+<h2>What stays on your device</h2>
+<p>Your rules, settings and, if you switch it on, an event log (what the app did: a Flip or Lock from tap to end, a rule kicking in or ending; last 300 entries). All of it lives in the app's private storage and never leaves the phone unless you export your rules yourself.</p>
+
+<h2>Network access</h2>
+<p>The app does not request the Internet permission. It cannot send data anywhere.</p>
+
+<h2>Other permissions</h2>
+<ul>
+  <li>Modify system settings &middot; to switch auto-rotate and the locked rotation.</li>
+  <li>Display over other apps (optional) &middot; an alternative to the accessibility window for forcing rotation.</li>
+  <li>Usage access (optional) &middot; an alternative way to see which app is in front, if you prefer it to the accessibility service. Same rules as above.</li>
+  <li>Notifications and a foreground service &middot; only for the optional quick-actions notification, and to keep rotation working while a feature you switched on needs it.</li>
+  <li>Run at startup &middot; only if you switch on "start on boot".</li>
+</ul>
+
+<h2>Third parties</h2>
+<p>No third-party services receive data from the app. Google Play may collect installation and crash statistics under Google's own policies, which are outside our control.</p>
+
+<h2>Children</h2>
+<p>The app is not directed at children and collects no personal information from anyone.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, the date above will change and the new text will be published here. Questions: hello@curmudgeon.works.</p>
+
+<footer><p><a href="/">Curmudgeon Works</a></p></footer>
+</body>
+</html>
